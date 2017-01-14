@@ -1,5 +1,8 @@
 # SetBrightness
-Replacement for xbacklight (broken on my computer with bumblebee)
+Replacement for xbacklight (broken on my computer with bumblebee)\n
+
+#Known issue :
+Need a sudo chmod 666 /sys/class/backlight/intel_backlight/brightness in order to work properly.
 
 #Usage :
 
