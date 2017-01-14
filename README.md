@@ -3,7 +3,7 @@ Replacement for xbacklight (broken on my computer with bumblebee)
 
 #Usage :
 
-setbrightness [OPTION] {VALUE}
+	setbrightness [OPTION] {VALUE}
 	OPTIONS :
 		--get : curent/max brightness
 		--set VALUE : set the brightness to VALUE 
