@@ -2,7 +2,8 @@
 Replacement for xbacklight (broken on my computer with bumblebee)\n
 
 #Known issue :
-Need a sudo chmod 666 /sys/class/backlight/intel_backlight/brightness in order to work properly.
+Need a sudo chmod 646 /sys/class/backlight/intel_backlight/brightness in order to work properly.
+ - Solved : put the brightness.conf in /etc/tmpfiles.d (check the path to your brightness folder)
 
 #Usage :
 
