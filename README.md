@@ -1,5 +1,7 @@
+#DISCONTINUED : xfce4-power-manager do the job just fine.
+
 # SetBrightness
-Replacement for xbacklight (broken on my computer with bumblebee)\n
+Replacement for xbacklight (broken on my computer with bumblebee)
 
 #Known issue :
 Need a sudo chmod 646 /sys/class/backlight/intel_backlight/brightness in order to work properly.
